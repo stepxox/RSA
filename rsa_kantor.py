@@ -73,7 +73,7 @@ class MyApp(QMainWindow, Ui_MainWindow):
 
        self.labelE.setText(e)
        d = self.inverseModulus(e, phi)[1]
-       self.labelN.setText(d)
+       self.labelD.setText(d)
 
        return (d, n), (e, n)
 
